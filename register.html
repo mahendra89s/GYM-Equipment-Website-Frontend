@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb3c054dd9.js" crossorigin="anonymous"></script>
+    <script src="JS/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="styles/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="login">
+        <div class="img">
+
+        </div>
+        <div class="login-form">
+            <h1>REGISTER</h1>
+           
+            <form action="index.html" id="regform" novalidate>
+                <div class="element">
+                    <label>Name :</label>
+                    <input type="text" name="name" placeholder="Enter Name" id="name" onblur="validate1()">
+                </div>
+                <span id="nameerror"></span>
+                <br>
+
+                <div class="element">
+                    <label>Email :</label>
+                    <input type="email" name="email" placeholder="Enter Email Id" id="email" onblur="validate2()">
+                </div>
+                <span id="emailerror"></span>
+                <br>
+
+                <div class="element">
+                    <label>Mobile No. :</label>
+                    <input type="number" name="mobile" placeholder="Enter Mobile No." id="mobile" onblur="validate3()">
+                </div>
+                <span id="mobileerror"></span>
+                <br>
+
+                <div class="element">
+                    <label>Password :</label>
+                    <div class="password-field">
+                        <input type="password" name="password" placeholder="Enter Password" id="pass" onblur="validate4()">
+                        <!-- <input type="checkbox" id="btn" onchange="showPass()"> -->
+                        <span id="btn" onclick="showPass()"><img id="icon" src="images/icon/hidden.png" width="30" height="30" alt=""></span>
+                    </div>  
+                </div>
+                <span id="passerror"></span> 
+                <br>
+
+                <div class="element">
+                    <label>Confirm Password :</label>
+                    <input type="password" name="cpassword" placeholder="Confirm Password" id="cpass" onblur="validate5()">
+                </div>
+                <span id="cpasserror"></span> 
+                <br>
+               
+                <input type="submit" value="REGISTER" id="submit">
+
+            </form>
+        </div>
+    </div>
+    <script src="JS/register.js"></script>
+</body>
+</html>

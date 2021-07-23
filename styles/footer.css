@@ -1,0 +1,41 @@
+footer{
+    font-family: "Oswald";
+    background-color:#2B2B2B;
+    width: 100%;
+    color:lightgrey;
+}
+#footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#footer .contact-us{
+    margin-left: 80px;
+}
+#footer .contact-us h1{
+    color: gray;
+    letter-spacing: 5px;
+}
+#footer .info h1{
+    color: gray;
+    letter-spacing: 5px;
+}
+#footer .info ol{
+    list-style-type: none;
+}
+#footer .info li{
+    margin-top: 10px;
+}
+#footer .info a{
+    color:lightgrey;
+    text-decoration: none;
+}
+#footer .info li a:hover{
+    color:tomato;
+    text-decoration: none;
+}
+footer #copyright{
+    margin-block-end: 0;
+    text-align: center;
+    padding-bottom: 30px;
+}

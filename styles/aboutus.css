@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url(../font/Oswald-Regular.ttf);
+}
+.about{
+    font-family: "Oswald-Regular";
+    margin:100px 150px;
+}
+.about h1{
+    font-family: "Oswald";
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+section header{
+    margin-top: 50px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat-Regular.ttf);
+}
+section p{
+    font-size: 20px;
+    font-family: "Montserrat";
+    letter-spacing: 1px;
+}
+section dt{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Montserrat";
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+section dd{
+    font-size: 20px;
+    font-family: "Montserrat";
+    letter-spacing: 1px;
+}
+
+section ul{
+    list-style-type: none;
+}
+section ul li{
+    font-size: 25px;
+    font-family: "Montserrat";
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-weight:300;
+}

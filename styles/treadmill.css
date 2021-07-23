@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url(../font/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../font/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat-Regular.ttf);
+}
+body{
+    background-color:#F4F4F4 ;
+}
+#head{
+    font-family: "Oswald";
+    letter-spacing: 3px;
+    font-size: 60px;
+    display: inline-block;
+    border-bottom: 10px solid #2B2B2B;
+    margin-bottom: 70px;
+}
+.prodt{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+
+.prodt aside{
+    box-shadow: 5px 5px 10px #2B2B2B;
+    position: sticky;
+    top:30%;
+    margin-top: 75px;
+    margin-bottom:40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 2px solid #2B2B2B;
+    height: fit-content;
+    background-color: #2B2B2B;
+    color: white;
+    
+}
+.prodt header{
+    font-family: "Oswald";
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.prodt aside ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    padding:0 15px;
+   
+}
+.prodt aside ul li{
+    font-family: "Montserrat-Bold";
+    font-size: 20px;
+    letter-spacing: 2px;
+    
+}
+.prodt aside a{
+    text-decoration: none;
+    color:thistle;
+}
+/* product list */
+.category{
+    
+    font-family:"Montserrat" ;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.category .treadprodt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:30px ;
+    margin: 0;
+}
+.category .treadprodt figure img{
+    width: 100%;
+    height: 300px;
+}
+
+.category figure{
+    background-color: white;
+    /* border: 5px solid black; */
+    padding: 10px;
+   
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    box-shadow: 5px 5px 10px #2B2B2B;
+}
+.category figcaption{
+    letter-spacing: 2px;
+}
+.category  .eqipname{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.category  .eqiprice{
+    color:dimgrey;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.category button{
+    color: tomato;
+    letter-spacing: 3px;
+    background-color: #2B2B2B;
+    font-size: 15px;
+    padding: 5px;
+    width:75px;
+    font-family: "Oswald";
+    border: none;
+    cursor: pointer;
+}

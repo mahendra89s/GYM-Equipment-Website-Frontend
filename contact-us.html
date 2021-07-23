@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/contact-us.css">
+    <script src="https://kit.fontawesome.com/eb3c054dd9.js" crossorigin="anonymous"></script>
+    <script src="JS/jquery-3.6.0.js"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="img-bar">
+            <img src="images/logo1.png" alt="" height="80" width="200">
+            <div id="logreg">
+                <span class="logreg1"><a href="login.html">LOGIN</a></span>
+                <span class="logreg1"><a href="register.html">REGISTER</a></span>
+            </div>
+        </div>
+        <ol>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="catalogue.html">CATALOGUE</a></li>
+            <li><a href="about-us.html">ABOUT US</a></li>
+            <li><a href="contact-us.html" id="home">CONTACT US</a></li>
+            <li></i><a href="cart.html"><i class="fas fa-cart-arrow-down" style="color: white;"></i> CART</a></li>
+        </ol>
+    </nav>
+    <div class="cont">
+        <h1>CONTACT US</h1>
+    </div>
+    
+    
+    <div class="contact">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120562.19154963724!2d72.93141930796347!3d19.21404075236611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8fcfe76fd59%3A0xcf367d85f7c50283!2sThane%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1626541504729!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="form">
+            <form id="contform" onvalidate>
+                <h1>MESSAGE</h1>
+                <hr>
+                <label><i class="fas fa-id-badge"></i> Name: </label>
+                <br>
+                <input type="text" name="fname" id="name" onblur="validate1()">
+                <span style="color:red;" id="nameerror"></span>
+                <br>
+
+                <label><i class="fas fa-envelope-square"></i> Email: </label>
+                <br>
+                <input type="email" name="email"  id="email" onblur="validate2()">
+                <span style="color:red;" id="emailerror"></span>
+                <br>
+
+                <label><i class="fas fa-mobile-alt" ></i> Mobile: </label>
+                <br>
+                <input type="number" name="mobile" id="mobile" onblur="validate3()">
+                <span style="color:red;" id="mobileerror"></span>
+                <br>
+                <label><i class="far fa-sticky-note" ></i> Message Us: </label>
+                <br>
+                <textarea type="text" name="message" cols="30" rows="5" id="message" onblur="validate4()"></textarea>
+                <span style="color:red;" id="messageerror"></span>
+                <br>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+    <footer >
+        <div id="footer">
+            <div class="contact-us">
+                <h1>CONTACT US</h1>
+                <p><i class="fas fa-location-arrow"></i> ABC LANE, XYZ CITY, THANE, MAHARASHTRA</p>
+                <p><i class="fas fa-envelope"></i> premiumgym@email.com</p>
+                <p><i class="fas fa-phone"></i> +91 9320404999</p>
+            </div>
+            <div class="info">
+                <ol>
+                    <h1>INFORMATION</h1>
+                    <li><a href="#">Looking for GYM Setup</a> </li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Presence</a></li>
+                    <li><a href="#">Terms Of Service</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ol>
+            </div>
+        </div>
+        <hr>
+        <p id="copyright">© 2021 Premium GYM Equipment Pvt Ltd. All rights reserved.</p>
+    </footer>
+    <script src="JS/activelink.js"></script>
+    <script src="JS/contactus.js"></script>
+</body>
+</html>

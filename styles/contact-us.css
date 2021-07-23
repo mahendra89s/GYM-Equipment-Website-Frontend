@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url(../font/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../font/Montserrat-Bold.ttf);
+}
+.cont h1{
+    font-family: "Oswald";
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:70px;
+    margin-bottom: 150px;
+}
+.contact .map iframe{
+    width: 100%;
+    height:100%;
+}
+.contact .form{
+    border:7px solid black;
+    border-radius: 30px;
+    margin: 0 70px;
+    padding: 0 20px;
+    background-color: #EEEEEE;
+}
+.contact h1{
+    font-family: "Oswald";
+    
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+.contact .form label{
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.contact .form input[type],textarea{
+    margin-top: 20px;
+    border:2px solid #2B2B2B;
+    border-radius: 50px;
+    font-size: 30px;
+    width: 100%;
+}
+.contact .form input[type]:focus{
+    outline:none;
+    border:4px solid gray;
+}
+.contact .form textarea:focus{
+    outline:none;
+    border:4px solid gray;
+}
+
+textarea{
+    border-radius: 20px;
+}
+.contact .form input[type="submit"]{
+    background-color: #2B2B2B;
+    font-family: "Montserrat-Bold";
+    border:3px solid #2B2B2B;
+    color: whitesmoke;
+    letter-spacing: 10px;
+    margin-bottom: 50px;
+}
+.contact .form input[type="submit"]:hover{
+    cursor: pointer;
+    letter-spacing: 15px;
+    transition: all 0.3s ease-in-out;
+}
+span{
+    font-family: "Oswald-Regular";
+}

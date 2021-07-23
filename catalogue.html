@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/catalogue.css">
+    <script src="https://kit.fontawesome.com/eb3c054dd9.js" crossorigin="anonymous"></script>
+    <script src="JS/jquery-3.6.0.js"></script>
+    <title>Catalogue</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="img-bar">
+            <img src="images/logo1.png" alt="" height="80" width="200">
+            <div id="logreg">
+                <span class="logreg1"><a href="login.html">LOGIN</a></span>
+                <span class="logreg1"><a href="register.html">REGISTER</a></span>
+            </div>
+        </div>
+        <ol>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="catalogue.html" id="home">CATALOGUE</a></li>
+            <li><a href="about-us.html">ABOUT US</a></li>
+            <li><a href="contact-us.html">CONTACT US</a></li>
+            <li></i><a href="cart.html"><i class="fas fa-cart-arrow-down" style="color: white;"></i> CART</a></li>
+        </ol>
+    </nav>
+    
+    <div class="prodt">
+        <aside>
+            <header>PRODUCT</header>
+            <hr>
+            <ul>
+                <a href="treadmill.html"><li>TREADMILL</li></a>
+                <hr>
+                <a href="upright.html"><li>UPRIGHT BIKE</li> </a>
+                <hr>
+                <a href="homegym.html"><li>CLUB LINE PLUS</li></a> 
+                <hr>
+                <a href="weight.html"><li>WEIGHT BARS</li></a>
+            </ul>
+        </aside>
+        <div class="category">
+            <h1 id="head">PRODUCT  </h1>
+            <div class="cat">
+                <div class="subcat">
+                    <div class="sub1"></div>
+                    <button onclick="window.location.href='treadmill.html'">TREADMILL</button>
+                </div>
+                <div class="subcat">
+                    <div class="sub2"></div>
+                    <button onclick="window.location.href='upright.html'">UPRIGHT BIKE</button>
+                </div>
+                <div class="subcat">
+                    <div class="sub3"></div>
+                    <button onclick="window.location.href='homegym.html'">CLUB LINE PLUS</button>
+                </div>
+                <div class="subcat">
+                    <div class="sub4"></div>
+                    <button onclick="window.location.href='weight.html'">WEIGHT BARS</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer >
+        <div id="footer">
+            <div class="contact-us">
+                <h1>CONTACT US</h1>
+                <p><i class="fas fa-location-arrow"></i> ABC LANE, XYZ CITY, THANE, MAHARASHTRA</p>
+                <p><i class="fas fa-envelope"></i> premiumgym@email.com</p>
+                <p><i class="fas fa-phone"></i> +91 9320404999</p>
+            </div>
+            <div class="info">
+                <ol>
+                    <h1>INFORMATION</h1>
+                    <li><a href="#">Looking for GYM Setup</a> </li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Presence</a></li>
+                    <li><a href="#">Terms Of Service</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ol>
+            </div>
+        </div>
+        <hr>
+        <p id="copyright">© 2021 Premium GYM Equipment Pvt Ltd. All rights reserved.</p>
+    </footer>
+    <script src="JS/activelink.js"></script>
+</body>
+</html>

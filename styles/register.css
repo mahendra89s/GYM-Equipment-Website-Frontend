@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url(../font/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../font/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "Oswald";
+    src: url(../font/Oswald-Bold.ttf);
+}
+body{
+    margin: 0;
+    background-color:#F4F4F4 ;
+}
+.login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+}
+.img{
+    background-image: url("../images/register.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+.login-form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    font-family: "Oswald-Regular";
+   
+}
+.login-form h1{
+    font-family: "Montserrat-Bold";
+    font-size: 30px;
+    letter-spacing:5px;
+    border-bottom:7px solid #2B2B2B ;
+}
+.element{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.login-form label{
+    letter-spacing:3px;
+    font-size:20px;
+    font-weight: bold;
+}
+input[type="email"], input[type="password"],input[type="text"],input[type="number"]{
+    font-size: 20px;
+    padding:10px;
+    letter-spacing:2px;
+    background-color: #f4f4f4;
+}
+a{
+    letter-spacing:2px;
+   display: block;
+   text-align: end;
+   padding:10px 0;
+}
+input[type="submit"]{
+    border: 5px solid tomato;
+    font-size: 20px;
+    padding:5px;
+    margin-top: 10px;
+    font-family: "Oswald-Regular";
+    letter-spacing:5px;
+    width:100%;
+    background-color: tomato;
+    font-weight: bold;
+    
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    letter-spacing:7px;
+    transition: all 0.1s ease-in-out;
+    border: 5px solid tomato;
+    background-color: transparent;
+}
+.password-field{
+    position: relative;
+}
+#btn{
+    position: absolute;
+    right:2%;
+    top:50%;
+    transform: translateY(-50%);
+    font-size:20px;
+    border: none;
+    color:black;
+}
+span{
+    color:red;
+}

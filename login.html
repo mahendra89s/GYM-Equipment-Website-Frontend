@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb3c054dd9.js" crossorigin="anonymous"></script>
+    <script src="JS/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="styles/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login">
+        <div class="img">
+
+        </div>
+        <div class="login-form">
+            <h1>LOGIN</h1>
+           
+            <form action="index.html" id="loginform" novalidate>
+                <label>Email :</label>
+                <br>
+                <br>
+                <input type="email" name="email" placeholder="Enter Email Id" id="email" onblur="validate1()">
+                <br>
+                <span id="emailerror"></span>
+                
+                <br>
+                <label>Password :</label>
+               
+                <br>
+                <br>
+                <div class="password-field">
+                    <input type="password" name="password" placeholder="Enter Password" id="pass" onblur="validate2()">
+                    <!-- <input type="checkbox" id="btn" onchange="showPass()"> -->
+                    <span id="btn" onclick="showPass()"><img id="icon" src="images/icon/hidden.png" width="30" height="30" alt=""></span>
+                </div>   
+                <span id="passerror"></span>
+                <a href="#">Forget your password</a>
+               
+                <input type="submit" value="LOGIN" id="submit">
+
+            </form>
+        </div>
+    </div>
+    <script src="JS/login.js"></script>
+</body>
+</html>
